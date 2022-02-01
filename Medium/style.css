@@ -1,0 +1,72 @@
+* *::before *::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+article {
+  max-width: 80%;
+  margin: 30px auto;
+}
+h1 {
+  font-family: Georgia, serif;
+}
+p,
+a,
+h5 {
+  font-family: Helvetica, sans-serif;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 8px 0;
+}
+p {
+  margin: 0;
+  color: rgb(122, 132, 141);
+  font-weight: 500;
+  
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+  position: relative;
+  padding-bottom: 50px;
+}
+section.button {
+  width: 50%;
+}
+section.content {
+  width: 50%;
+}
+button {
+  background-color: rgba(3, 168, 124);
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 0;
+  padding: 10px 50px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+h5{
+  font-size: 16px;
+  margin: 25px 0;
+  font-weight: 700;
+}
+main::after{
+ content: "";
+ width: 40%;
+ height: 1px;
+ background-color: rgb(122, 132, 141);
+ position: absolute;
+ bottom: 0;
+ left: 30%;
+}
+span{
+ background-color: rgb(207, 253, 233);
+}
