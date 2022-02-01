@@ -1,0 +1,183 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: rgb(56, 56, 56);
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 40px;
+  box-shadow: 0px 0 17px 1px rgb(160 173 185);
+}
+section.titel {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.titel h1 {
+  font-size: 36px;
+  padding: 10px;
+}
+.titel p {
+  font-size: 15px;
+  padding: 10px;
+  box-shadow: -1px 0 0 0 rgb(160, 173, 185);
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+button {
+  margin: 1px;
+  border: none;
+  padding: 15px;
+  background-color: rgb(236, 236, 236);
+}
+button:hover {
+  background-color: rgb(226, 78, 42);
+  color: white;
+}
+a:hover {
+  color: white;
+}
+.homepage {
+  background-color: rgb(226, 78, 42);
+}
+.homepage a {
+  color: white;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+section.header-img {
+  height: 30%;
+}
+header {
+  padding-top: 65%;
+  background-image: url("./images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.header-content {
+  background-color: rgb(226, 78, 42);
+  padding: 40px 100px;
+  text-align: center;
+  width: 100%;
+}
+section.header-content p {
+  color: rgb(244, 198, 182);
+}
+section.main {
+  background-color: rgb(56, 56, 56);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  padding: 5% 5%;
+}
+section.main i {
+  color: white;
+  background-color: rgb(226, 78, 42);
+  width: 80px;
+  height: 67px;
+  align-self: center;
+  font-size: 45px;
+  text-align: center;
+  padding: 10px;
+}
+section.main-icon {
+  margin: 0 5px;
+}
+h5 {
+  color: white;
+  text-align: center;
+}
+section.main p {
+  color: rgb(105, 105, 103);
+  text-align: center;
+}
+section.main p.content {
+  color: rgb(105, 105, 103);
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px -0.5px 0 0 rgb(105, 105, 103);
+  margin: 4px;
+}
+section.button {
+  background-color: white;
+  text-align: center;
+  color: rgb(105, 105, 103);
+  padding: 5%;
+}
+section.button h2,
+section.button p {
+  color: rgb(105, 105, 103);
+}
+section.button p {
+  color: rgb(105, 105, 103);
+  font-weight: lighter;
+}
+section.button button {
+  background-color: rgb(27, 151, 114);
+  border: none;
+  padding: 15px 35px;
+}
+section.button button a {
+  color: azure;
+}
+section.content {
+  background-color: rgb(56, 56, 56);
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+}
+section.content h3 {
+  color: azure;
+  text-align: center;
+  margin-bottom: 16%;
+}
+section.content p {
+  color: rgb(105, 105, 103);
+  text-align: center;
+}
+footer {
+  background-color: rgb(27, 151, 114);
+  padding: 5% 15% 10% 15%;
+}
+footer p {
+  color: rgb(105, 105, 103);
+  text-align: center;
+}
