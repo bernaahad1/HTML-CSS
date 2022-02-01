@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Gelasio", serif;
+  background-color: rgb(225, 225, 225);
+}
+
+header {
+  background-image: url("./images/map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 20px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  color: rgb(202, 202, 202);
+}
+section.logo {
+  width: 5%;
+}
+section.logo img {
+  width: 100%;
+}
+button.login {
+  background-color: transparent;
+  border: none;
+  color: rgb(202, 202, 202);
+}
+button.login a {
+  color: rgb(202, 202, 202);
+  text-decoration: none;
+  font-size: 10px;
+}
+section.login i {
+  color: rgb(202, 202, 202);
+  font-size: 11px;
+  font-weight: 600;
+}
+section.titel {
+  color: white;
+  text-align: center;
+  margin: 120px 0 50px 0;
+}
+section.titel h1 {
+  text-shadow: 2px 1px grey;
+  margin-bottom: 0;
+}
+section.titel button {
+  background-color: rgb(20, 101, 148);
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 0;
+}
+section.titel button a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  text-align: center;
+}
+main {
+  background-color: rgb(225, 225, 225);
+  padding: 5px 100px;
+  height: 500px;
+}
+
+main h3 {
+  color: rgb(116, 114, 114);
+  margin: 10px 0;
+}
+.tips {
+  display: flex;
+  height: 350px;
+}
+.tips h3 {
+  color: white;
+  text-shadow: 2px 1px grey;
+  font-size: 15px;
+}
+.tips-pack {
+  background-image: url("./images/packing.jpg");
+  width: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.tips-trip {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+.tips-trip-plan {
+  background-image: url("./images/planning.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  background-position: center;
+  text-align: center;
+}
+.tips-trip-budget {
+  background-image: url("./images/budget.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  background-position: center;
+  text-align: left;
+}
+.tips-pack h3 {
+  margin: 25px;
+}
+.tips-trip-plan h3 {
+  margin: 2px;
+}
+.tips-trip-budget h3 {
+  margin: 138px 0 20px 10px;
+}
+footer {
+  background-color: grey;
+  filter: opacity(60%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+li {
+  padding-left: 8px;
+  padding-right: 5px;
+  padding: 0 3px 0 8px;
+  font-size: 10px;
+  color: rgb(225, 225, 225);
+  border-left: 0.1px solid rgb(184, 179, 179);
+}
+li:nth-child(1) {
+  margin-left: 0;
+  border: none;
+}
+footer li a {
+  color: rgb(225, 225, 225);
+  text-decoration: none;
+  font-size: 10px;
+}
